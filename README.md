@@ -1,1 +1,3 @@
-# a2sv-hackaton
+# Unique Calculator
+
+The Unique Calculator is a modular JavaScript application that offers various calculation options, including basic arithmetic, rectangle geometry, circle geometry, and triangle geometry. The key feature is the separation of menu display and calculation logic, which enhances code maintainability. The `displayMenu()` function prints the options, while `performCalculation()` handles user input and performs the corresponding computation. Handling user input validation was a challenge, which was addressed by using `parseFloat()` and including a default case in the `switch` statement to manage invalid choices.
